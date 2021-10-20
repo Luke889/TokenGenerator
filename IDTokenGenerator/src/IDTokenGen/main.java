@@ -8,7 +8,8 @@ public class main {
 
         int zahl;
 
-        for(int i=0; i<12; i++){
+        for(int i=0; i<12; i++){ //Die Max Zahl bei i=12 die 12 beliebig ändern
+           
             zahl = 1+ id.nextInt(6);
             System.out.print(zahl);
         }
